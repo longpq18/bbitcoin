@@ -1,0 +1,23 @@
+[class *= col] {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+ul, ol {
+	padding-left: 0;
+}
+
+a {
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.col-md-45 {
+	width: 37.5% !important;
+	float: left;
+}
+
+li {
+	list-style-type: none;
+}

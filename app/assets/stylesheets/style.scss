@@ -1,0 +1,184 @@
+header {
+	background: #049bd4;
+	.logo {
+		img {
+			padding: 10px;
+			border-radius: 50%;
+			margin-left: 55px;
+		}
+	}
+
+	.main-nav {
+		#menu-right {
+			margin-top: 42px;
+			text-align: left;
+			li {
+				display: inline-block;
+				padding-right: 10px;
+				list-style-type :none; 
+				color: #fff;
+				margin-right: 25px;
+
+				a {
+					color: #fff;
+
+					&:hover {
+						color: #85b45b;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+.wrapper {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+
+	.quickstart {
+		//background: rgba(245, 245, 245, 0.7);
+		padding: 40px 0 !important;
+		text-align: center;
+		background: #e5e5e5;
+
+		h3 {
+			font-size: 18px;
+		}
+
+		p {
+			font-size: 15px;
+			margin: 20px 0 40px;
+			padding: 0 10px;
+		}
+
+		a {
+			border-radius: 5px;
+			border: none;
+			padding: .8em 1.2em;
+			transition: all .2s ease-in-out;
+			margin-bottom: 0;
+			text-align: center;
+			vertical-align: middle;
+			cursor: pointer;
+			text-decoration: none;
+			text-transform: capitalize;
+			color: #fff;
+			max-width: none;
+			margin-top: 20px; 
+
+			&:hover {
+				background: #333 !important;
+			}
+		}
+
+		.user-register {
+			a {
+				background: #85b45b;
+			}
+		}
+		.user-login {
+			a {
+				background: #049bd4;
+			}
+		}
+		.works {
+			a {
+				background: orange;
+			}
+		}
+	}
+
+	.wallets {
+		text-align: center;
+		background: #fff;
+		//opacity: .9;
+		padding: 100px 0 !important;
+		clear: both;
+		//color: #fff;
+
+		>h2 {
+			//padding-bottom: 50px;
+		}
+
+		.start-wallets {
+			margin-top: 130px;
+			h2 {
+				padding-bottom: 40px;
+			}
+
+			>a {
+				border-radius: 5px;
+				border: none;
+				padding: .8em 1.2em;
+				transition: all .2s ease-in-out;
+				margin-bottom: 0;
+				text-align: center;
+				vertical-align: middle;
+				cursor: pointer;
+				text-decoration: none;
+				text-transform: capitalize;
+				color: #fff;
+				max-width: none;
+				background: #049bd4;
+
+				&:hover {
+					background: #333;
+				}
+
+			}
+
+			p {
+				margin: 20px 0;
+				a {
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+
+	.buy-sell {
+		//background: rgba(0,168,232,0.54902);
+		background: #85b45b;
+		.buy, .sell {
+			text-align: center;
+			padding: 40px 0 !important;
+
+			h2, h3 {
+				color: #fff;
+			}
+		}
+	}
+
+	.contact-us {
+		text-align: center;
+		padding: 100px 0;
+		background: #fff;
+	}
+}
+
+.main-content {
+	padding: 50px ;
+}
+
+.head {
+	position: relative;
+	padding-bottom: 50px;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 50%;
+		margin-left: -50px;
+		bottom: 35px;
+		background: #049bd4;
+		width: 100px;
+		height: 2px;
+	}
+}
+
+footer {
+	background: #333;
+	li {
+		list-style-type: none;
+	}
+}

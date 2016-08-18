@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bapbitcoin</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="container-fluid wrapper">
+	<%= render 'layouts/partials/header' %>
+
+	<div class="quickstart">
+		<div class="container">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 user-register">
+				<h3>New Users</h3>
+				<p>Creating a Blockchain Wallet takes a few seconds. Send and receive payments immediately.</p>
+				<a href="#">Create a Free Bitcoin Wallet</a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 user-login">
+				<h3>Existing Users</h3>
+				<p>If you have previously created a Blockchain Wallet click below to login.</p>
+				<a href="#">Login Now</a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 works">
+				<h3>How It Works</h3>
+				<p>Client side encryption keeps you firmly in control of your funds. Not even we have access.</p>
+				<a href="#">How It Works</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="wallets">
+		<h2 class="head"> The World's Most Popular Bitcoin Wallet </h2>
+		<div class="wallets-content">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<h3>60 Million+</h3>
+				<p>Transactions</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<h3>8 Million+</h3>
+				<p>Wallets</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<h3>120+</h3>
+				<p>Countries Served</p>
+			</div>
+		</div>
+		<div class="start-wallets">
+			<a href="#">Create Your Wallet</a>
+			<p>Already have a wallet?<a href="#">Log in</a></p>
+		</div>
+
+	</div>
+	
+	<div class="container-fluid buy-sell">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 buy">
+			<h2>
+				bitFlyer Buy Bitcoin (JPY)
+			</h2>
+			<h3>58,581</h3>
+		</div>
+
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 sell">
+			<h2>bitFlyer Sell Bitcoin (JPY)</h2>
+			<h3>58,367</h3>
+		</div>
+	</div>
+
+	<%= render 'layouts/partials/contact' %>
+
+	<%= render 'layouts/partials/footer' %>
+             
+	
+</div>
+
+
+</body>
+</html>

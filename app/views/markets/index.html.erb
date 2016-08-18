@@ -1,0 +1,19 @@
+<div class="market-wrapper">
+	<%= render partial: 'markets/mk-partials/header' %>
+
+	<div class="mk-content">
+		<div class="col-md-3 mk-content-left">
+			<div class="mk-content-list">
+				<%= render partial: 'markets/mk-partials/market_list' %>
+			</div>
+		</div>
+
+		<div class="col-md-5 mk-content-center">
+			<%= render partial: 'markets/mk-partials/candlestick' %>
+		</div>
+
+		<div class="col-md-4 mk-content-right">
+			<%= render partial: 'markets/mk-partials/order_book' %>
+		</div>
+	</div>
+</div>
